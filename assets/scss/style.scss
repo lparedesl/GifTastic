@@ -1,10 +1,11 @@
-@import "_variables.scss";
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
-$card-bg           : #BCD8C1;
-$card-back-bg      : #eceeef;
-$card-border       : rgba(0, 0, 0, 0.2);
-$choice-hover      : #668e6d;
-$footer-link-hover : #65c2ed;
+
+$footer-link-hover    : #65c2ed;
+$gray-base            : #000 !default;
+$gray-darker          : lighten($gray-base, 13.5%) !default; // #222
+$gray-darker-inactive : #9d9d9d;
+$black                : #000 !default;
+$white                : #fff !default;
 
 @mixin box-shadow ($offsetx, $offsety, $blur, $spread, $color) {
 	-moz-box-shadow: $offsetx $offsety $blur $spread $color;
